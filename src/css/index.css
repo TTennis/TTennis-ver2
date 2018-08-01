@@ -1,0 +1,12 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "helpers/fonts.css";
+@import "helpers/variables.css";
+@import "helpers/type.css";
+
+@import "helpers/global.css";
+
+
+@import "blocks/header.css";
+@import "blocks/portfolio.css";
+@import "blocks/landing-section.css";
+@import "blocks/info.css";

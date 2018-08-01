@@ -1,0 +1,30 @@
+.main-header {
+  position: relative;
+  min-height: 100vh;
+  align-content: center;
+  background-image: url('../resources/img/0-header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-dark);
+  opacity: 0.92;
+}
+
+.header-content {
+  padding: 60px var(--gutter);
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.header-buttons .button:not(:last-child) {
+  margin-right: 30px;
+}
