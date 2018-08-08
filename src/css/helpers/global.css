@@ -4,3 +4,11 @@ html { box-sizing: border-box; }
   box-sizing: inherit;
 }
 
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
