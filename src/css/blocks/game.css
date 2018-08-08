@@ -1,0 +1,27 @@
+.game {
+}
+
+.game.visible {
+    display: flex;
+}
+
+.game-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.game-player--1 {
+    background-color: red;
+}
+
+.game-player--2 {
+    background-color: blue;
+}
+
+.game-player__count {
+    color: white;
+    font-size: 200px;
+}
