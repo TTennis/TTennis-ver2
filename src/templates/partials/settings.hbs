@@ -1,5 +1,8 @@
 <section class="settings hidden">
     <div class="container">
+        <div class="logo">
+            <img src="resources/img/logo.svg" alt="TTennis">
+        </div>
         <h2 class="h2 settings__title">Настройки игры</h2>
         <input type="text" name="player_1" class="settings__player settings__player--1" placeholder="Игрок #1">
         <input type="text" name="player_2" class="settings__player settings__player--2" placeholder="Игрок #2">
@@ -11,7 +14,9 @@
             <option value="5">Количество подач 5</option>
             <option value="5">Количество подач 3</option>
         </select>
-        <button class="settings__start-game">Разыграть</button>
-        <button class="settings__prev">Назад</button>
+        <div class="buttons">
+            <button class="btn btn--blue settings__start-game">Разыграть</button>
+            <button class="btn btn--opacity btns__prev settings__prev">Назад</button>
+        </div>
     </div>
 </section>
