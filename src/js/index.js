@@ -1,8 +1,12 @@
 let btnHomeNewGame = document.querySelector('.home__new-game');
 let btnHomeQuickGame = document.querySelector('.home__quick-game');
 
+let listBtnPrev = document.querySelectorAll('.btns__prev');
+let arrayBtnPrev = Array.prototype.slice.call(listBtnPrev);
+
 let home = document.querySelector('.home');
 let settings = document.querySelector('.settings');
+
 let game = document.querySelector('.game');
 
 let standartGame = {
@@ -12,6 +16,7 @@ let standartGame = {
   pitch: 5,
 };
 
+
 btnHomeNewGame.addEventListener('click', function () {
   nextStep(home, settings);
 });
@@ -19,6 +24,12 @@ btnHomeNewGame.addEventListener('click', function () {
 btnHomeQuickGame.addEventListener('click', function () {
   nextStep(home, game);
   quickGame();
+});
+
+arrayBtnPrev.forEach(function (elem) {
+  elem.addEventListener('click', function () {
+    prevStep(elem);
+  });
 });
 
 function nextStep(prevBlock, nextBlock) {
@@ -30,9 +41,11 @@ function nextStep(prevBlock, nextBlock) {
   nextBlock.classList.remove('hidden');
 }
 
+function prevStep(currentElem) {
+  console.log('1');
+}
+
 function quickGame() {
   let currentGame = {};
-  // currentGame.prototype = Object.create(standartGame.prototype);
   currentGame.__proto__ = standartGame;
-  console.log(currentGame);
 }
