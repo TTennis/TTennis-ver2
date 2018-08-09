@@ -2,11 +2,9 @@
 @import "helpers/fonts.css";
 @import "helpers/variables.css";
 @import "helpers/type.css";
+@import "helpers/buttons.css";
 
 @import "helpers/global.css";
-
-
-@import "blocks/header.css";
 
 @import "blocks/home.css";
 @import "blocks/players.css";

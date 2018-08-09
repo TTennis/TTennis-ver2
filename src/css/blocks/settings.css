@@ -1,2 +1,4 @@
 .settings {
+  min-height: 100vh;
+  background-image: radial-gradient(#3f4660 0%, #393c43 100%);
 }

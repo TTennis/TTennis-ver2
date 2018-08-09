@@ -1,0 +1,27 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 148px; /* ToDO убрать */
+}
+
+.btn {
+  width: 100%;
+  padding: 22px 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  border-radius: 31px;
+  cursor: pointer;
+}
+
+.btn--blue {
+  border: none;
+  background-color: #49a0d5;
+}
+
+.btn--opacity {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}

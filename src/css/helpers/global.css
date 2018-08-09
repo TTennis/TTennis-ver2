@@ -4,11 +4,26 @@ html { box-sizing: border-box; }
   box-sizing: inherit;
 }
 
+body {
+  font-family: Roboto;
+}
+
 .hidden {
   display: none;
 }
 
 .visible {
   display: block;
+}
+
+.logo img {
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  width: 326px;
+  margin: auto;
+  z-index: 3;
 }
 
