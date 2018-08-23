@@ -9,6 +9,8 @@ let settings = document.querySelector('.settings');
 
 let game = document.querySelector('.game');
 
+location.hash = 'home';
+
 let standartGame = {
   player1: 'Игрок 1',
   player2: 'Игрок 2',
@@ -16,13 +18,15 @@ let standartGame = {
   pitch: 5,
 };
 
+let screenPlay = ['home'];
+
 
 btnHomeNewGame.addEventListener('click', function () {
-  nextStep(home, settings);
+  nextStep(home, settings, 'newGame');
 });
 
 btnHomeQuickGame.addEventListener('click', function () {
-  nextStep(home, game);
+  nextStep(home, game, 'quickGame');
   quickGame();
 });
 
@@ -32,17 +36,40 @@ arrayBtnPrev.forEach(function (elem) {
   });
 });
 
-function nextStep(prevBlock, nextBlock) {
+function nextStep(prevBlock, nextBlock, linkHash) {
+  screenPlay.push(linkHash);
   prevBlock.classList.add('prev');
   prevBlock.classList.add('hidden');
   prevBlock.classList.remove('visible');
 
   nextBlock.classList.add('visible');
   nextBlock.classList.remove('hidden');
+  location.hash = linkHash;
+}
+
+function workWithClass(prevBlock, nextBlock,) {
+  prevBlock.classList.add('prev');
+  prevBlock.classList.add('hidden');
+  prevBlock.classList.remove('visible');
+  
+  nextBlock.classList.add('visible');
+  nextBlock.classList.remove('hidden');
 }
 
 function prevStep(currentElem) {
-  console.log('1');
+  let prevBlock = screenPlay[screenPlay.length - 1];
+  let currentBlock = screenPlay[screenPlay.length - 2];
+  
+  
+  
+  screenPlay.pop();
+  
+  location.hash = currentBlock;
+  
+  workWithClass(document.getElementById(prevBlock), document.getElementById(currentBlock));
+  
+  console.log(prevBlock);
+  console.log(currentBlock);
 }
 
 function quickGame() {
