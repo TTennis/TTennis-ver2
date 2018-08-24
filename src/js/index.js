@@ -32,7 +32,7 @@ btnHomeQuickGame.addEventListener('click', function () {
 
 arrayBtnPrev.forEach(function (elem) {
   elem.addEventListener('click', function () {
-    prevStep(elem);
+    prevStep();
   });
 });
 
@@ -47,7 +47,7 @@ function nextStep(prevBlock, nextBlock, linkHash) {
   location.hash = linkHash;
 }
 
-function workWithClass(prevBlock, nextBlock,) {
+function workWithClass(prevBlock, nextBlock) {
   prevBlock.classList.add('prev');
   prevBlock.classList.add('hidden');
   prevBlock.classList.remove('visible');
@@ -56,20 +56,14 @@ function workWithClass(prevBlock, nextBlock,) {
   nextBlock.classList.remove('hidden');
 }
 
-function prevStep(currentElem) {
+function prevStep() {
   let prevBlock = screenPlay[screenPlay.length - 1];
   let currentBlock = screenPlay[screenPlay.length - 2];
-  
-  
-  
   screenPlay.pop();
   
   location.hash = currentBlock;
   
   workWithClass(document.getElementById(prevBlock), document.getElementById(currentBlock));
-  
-  console.log(prevBlock);
-  console.log(currentBlock);
 }
 
 function quickGame() {
