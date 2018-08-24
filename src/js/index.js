@@ -1,3 +1,5 @@
+import Game from './helpers/game.js';
+
 let btnHomeNewGame = document.querySelector('.home__new-game');
 let btnHomeQuickGame = document.querySelector('.home__quick-game');
 
@@ -20,6 +22,10 @@ let standartGame = {
 
 let screenPlay = ['home'];
 
+let gameCount = new Game();
+
+gameCount.counter();
+gameCount.exitGame();
 
 btnHomeNewGame.addEventListener('click', function () {
   nextStep(home, settings, 'newGame');

@@ -3,6 +3,8 @@
 
 .game.visible {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .game-player {
@@ -11,17 +13,23 @@
     justify-content: center;
     width: 50%;
     height: 100vh;
+    cursor: pointer;
 }
 
 .game-player--1 {
-    background-color: red;
+    background-color: #404b67;
 }
 
 .game-player--2 {
-    background-color: blue;
+    background-color: #3f4660;
 }
 
 .game-player__count {
     color: white;
     font-size: 200px;
+    user-select: none;
+}
+
+.game .buttons {
+    margin-top: -30vh;
 }
