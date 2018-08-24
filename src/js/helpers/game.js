@@ -31,6 +31,7 @@ export default class Game {
     
     this.btnGameFinish.addEventListener('click', function () {
       alert('Игра закончилась');
+      
     });
   }
 }
