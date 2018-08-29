@@ -13,13 +13,22 @@ export default class Game {
   counter() {
     this.fieldPlayerOne.addEventListener('click', () => {
       this.pointPlayerOne.innerHTML = String(+this.pointPlayerOne.innerHTML + 1);
-      this.exitGame();
+      this.exitGame(); // TODO повторяется
+      this.changeFeed(); // TODO повторяется
     });
   
     this.fieldPlayerTwo.addEventListener('click', () => {
       this.pointPlayerTwo.innerHTML = String(+this.pointPlayerTwo.innerHTML + 1);
-      this.exitGame();
+      this.exitGame(); // TODO повторяется
+      this.changeFeed(); // TODO повторяется
     });
+  }
+  
+  changeFeed() {
+    if ((+this.pointPlayerOne.innerHTML + +this.pointPlayerTwo.innerHTML) % 5 === 0) {
+      this.fieldPlayerOne.classList.toggle('game-player--pitch');
+      this.fieldPlayerTwo.classList.toggle('game-player--pitch');
+    }
   }
   
   exitGame() {

@@ -14,14 +14,19 @@
     width: 50%;
     height: 100vh;
     cursor: pointer;
-}
-
-.game-player--1 {
     background-color: #404b67;
 }
 
-.game-player--2 {
+.game-player--pitch {
     background-color: #3f4660;
+}
+
+.game-player--1 {
+
+}
+
+.game-player--2 {
+
 }
 
 .game-player__count {
