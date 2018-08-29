@@ -35,7 +35,6 @@ export default class Game {
     
     if (+this.pointPlayerOne.innerHTML >= 21 || +this.pointPlayerTwo.innerHTML >= 21) {
       alert('End Game');
-      console.log(1);
     }
     
     this.btnGameFinish.addEventListener('click', function () {
