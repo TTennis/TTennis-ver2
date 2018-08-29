@@ -11,27 +11,26 @@ export default class Game {
   }
   
   counter() {
-    this.fieldPlayerOne.addEventListener('click', function () {
-      alert('work');
-      this.pointPlayerOne.innerHTML = +this.pointPlayerOne.innerHTML + 1; // Не работает
-      Game.prototype.exitGame();
+    this.fieldPlayerOne.addEventListener('click', () => {
+      this.pointPlayerOne.innerHTML = String(+this.pointPlayerOne.innerHTML + 1);
+      this.exitGame();
     });
   
-    this.fieldPlayerTwo.addEventListener('click', function () {
-      alert('work2');
-      this.pointPlayerTwo.innerHTML = +this.pointPlayerTwo.innerHTML + 1; // Не работает
-      Game.prototype.exitGame();
+    this.fieldPlayerTwo.addEventListener('click', () => {
+      this.pointPlayerTwo.innerHTML = String(+this.pointPlayerTwo.innerHTML + 1);
+      this.exitGame();
     });
   }
   
   exitGame() {
+    
     if (+this.pointPlayerOne.innerHTML >= 21 || +this.pointPlayerTwo.innerHTML >= 21) {
       alert('End Game');
+      console.log(1);
     }
     
     this.btnGameFinish.addEventListener('click', function () {
-      alert('Игра закончилась');
-      
+    
     });
   }
 }

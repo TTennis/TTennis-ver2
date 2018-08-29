@@ -25,7 +25,7 @@ let screenPlay = ['home'];
 let gameCount = new Game();
 
 gameCount.counter();
-gameCount.exitGame();
+// gameCount.exitGame();
 
 btnHomeNewGame.addEventListener('click', function () {
   nextStep(home, settings, 'newGame');
