@@ -9,7 +9,7 @@
   width: 100%;
   margin: 12px 0;
   padding: 22px 0;
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.64px;
@@ -19,10 +19,10 @@
 
 .btn--blue {
   border: none;
-  background-color: #49a0d5;
+  background-color: var(--color-primary);
 }
 
 .btn--opacity {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-white);
   background-color: transparent;
 }

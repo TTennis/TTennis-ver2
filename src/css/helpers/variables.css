@@ -5,10 +5,11 @@
 */
 
 :root {
-  --color-orange: #f0650d;
-  --color-dark: #293a43;
-  --color-light: #ededed;
-  --color-gray: #4b5a65;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-primary: #49a0d5;
+  --color-secondary: #3d4357;
+  --color-secondary-dark: #3e445a;
 
   /*
   ------------------------------------------------------------------
