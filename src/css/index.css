@@ -1,7 +1,6 @@
 @import "../../node_modules/normalize.css/normalize.css";
 @import "helpers/fonts.css";
 @import "helpers/variables.css";
-@import "helpers/type.css";
 @import "helpers/typography.css";
 @import "helpers/buttons.css";
 @import "helpers/modal.css";

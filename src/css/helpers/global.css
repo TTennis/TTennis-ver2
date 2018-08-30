@@ -4,6 +4,15 @@ html { box-sizing: border-box; }
   box-sizing: inherit;
 }
 
+.grid {
+  display: grid;
+}
+
+body {
+  min-height: 667px;
+  font-family: var(--primary-font);
+}
+
 .hidden {
   display: none;
 }
@@ -16,13 +25,31 @@ html { box-sizing: border-box; }
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .container {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100vh;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 var(--gutter);
+  min-height: 667px;
   width: 326px;
   z-index: 3;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    min-height: 100vh;
+  }
+
+  .container {
+    min-height: 100vh;
+  }
+}
