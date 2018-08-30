@@ -1,25 +1,11 @@
 @font-face {
-  font-family: 'raleway-grid';
-  src: url('../resources/fonts/RalewayRegular.woff') format('woff');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'raleway-grid';
-  src: url('../resources/fonts/RalewayBold.woff') format('woff');
+  font-family: 'Roboto';
+  src: url('../resources/fonts/RobotoBold/RobotoBold.woff') format('woff');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: 'raleway-grid';
-  src: url('../resources/fonts/RalewayExtraBold.woff') format('woff');
-  font-weight: 800;
+  font-family: 'Roboto';
+  src: url('../resources/fonts/RobotoLight/RalewayLight.woff') format('woff');
+  font-weight: 300;
 }
-
-@font-face {
-  font-family: 'intro-grid';
-  src: url('../resources/fonts/IntroRegular.woff') format('woff');
-  font-weight: 400;
-}
-
-
