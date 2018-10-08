@@ -2,23 +2,25 @@
 }
 
 .game.visible {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
 }
 
 .game-player {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-
-    cursor: pointer;
-    background-color: #404b67;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  
+  cursor: pointer;
+  background-color: #404b67;
 }
 
 .game-player--pitch {
-    background-color: #3f4660;
+  background-color: #3f4660;
 }
 
 .game-player--1 {
@@ -30,11 +32,11 @@
 }
 
 .game-player__count {
-    color: white;
-    font-size: 200px;
-    user-select: none;
+  color: white;
+  font-size: 200px;
+  user-select: none;
 }
 
 .game .buttons {
-    margin-top: -30vh;
+  margin-top: -30vh;
 }

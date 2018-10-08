@@ -16,7 +16,7 @@
   letter-spacing: 0.64px;
 }
 
-.settings input[placeholder] {
+.settings input::placeholder {
   color: var(--color-white);
   font-size: 16px;
   font-weight: 400;
