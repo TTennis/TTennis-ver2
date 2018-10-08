@@ -7,6 +7,9 @@
 
 @import "helpers/global.css";
 
+/*Plugins*/
+@import "plugins/selectize.css";
+
 @import "blocks/home.css";
 @import "blocks/players.css";
 @import "blocks/settings.css";
