@@ -38,7 +38,9 @@ export default class Game {
     }
     
     this.btnGameFinish.addEventListener('click', function () {
-    
+      let modalExit = document.querySelector('.modal-exit');
+      
+      modalExit.classList.remove('hidden');
     });
   }
 }

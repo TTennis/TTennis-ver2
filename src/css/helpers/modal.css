@@ -1,0 +1,42 @@
+.modal {
+}
+
+.modal-exit {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  width: 286px;
+  height: 286px;
+  margin: auto;
+
+  text-align: center;
+}
+
+.modal-exit__close {
+  width: 47px;
+  height: 47px;
+  font-size: 0;
+  background-image: url('../resources/img/close_menu.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+}
+
+.modal-exit__btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-exit__btn {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+  background-color: transparent;
+  border: none;
+}
