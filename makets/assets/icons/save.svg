@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1558 38 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="item" transform="translate(1215 6)">
+    <rect id="Rectangle_3338" data-name="Rectangle 3338" class="cls-1" width="24" height="24" transform="translate(343 32)"/>
+    <g id="save" transform="translate(345 34)">
+      <path id="Path_1299" data-name="Path 1299" class="cls-2" d="M19.535,4.707V19.535H1V1H15.828Z"/>
+      <path id="Path_1300" data-name="Path 1300" class="cls-2" d="M24.948,1V6.113H16V1" transform="translate(-10.207)"/>
+      <line id="Line_38" data-name="Line 38" class="cls-2" y2="4.953" transform="translate(12.185 1)"/>
+      <line id="Line_39" data-name="Line 39" class="cls-2" x2="8.948" transform="translate(5.793 13.463)"/>
+      <line id="Line_40" data-name="Line 40" class="cls-2" x2="8.948" transform="translate(5.793 16.019)"/>
+    </g>
+  </g>
+</svg>

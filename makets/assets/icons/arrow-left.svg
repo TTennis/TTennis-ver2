@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="561.5 571.666 6 10.667">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="arrow" transform="translate(561.747 572.61)">
+    <path id="Path_1297" data-name="Path 1297" class="cls-1" d="M6,10.667,1,5.834,6,1" transform="translate(-0.747 -1.444)"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="986 166.074 24 20.966">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="change" transform="translate(986 166.074)">
+    <g id="right" transform="translate(1 1)">
+      <line id="Line_35" data-name="Line 35" class="cls-1" x2="22" transform="translate(0 4.552)"/>
+      <path id="Path_1293" data-name="Path 1293" class="cls-1" d="M47,1l4.552,4.552L47,10.1" transform="translate(-29.552 -1)"/>
+    </g>
+    <g id="left" transform="translate(1 10.862)">
+      <line id="Line_36" data-name="Line 36" class="cls-1" x1="22" transform="translate(0 4.552)"/>
+      <path id="Path_1294" data-name="Path 1294" class="cls-1" d="M5.552,36.1,1,31.552,5.552,27" transform="translate(-1 -27)"/>
+    </g>
+  </g>
+</svg>

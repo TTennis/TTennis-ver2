@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1007.4 219.557 167.216 167.216">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Roket" transform="translate(1007.426 303.19) rotate(-45)">
+    <path id="Path_1295" data-name="Path 1295" class="cls-1" d="M106.169,12.034C89.542-4.593,60.095-2.189,40.463,17.443,24.037,33.869,19.43,57.707,28.244,74.534L1,101.377a19.27,19.27,0,0,0,5.008,10.617c4.407,4.407,10.817,5.208,10.817,5.208L43.668,90.159C60.5,98.773,84.334,94.366,100.76,77.94,120.391,58.108,122.8,28.661,106.169,12.034Z" transform="translate(0 0)"/>
+    <line id="Line_37" data-name="Line 37" class="cls-1" x2="42.869" y2="42.869" transform="translate(26.04 49.294)"/>
+  </g>
+</svg>
